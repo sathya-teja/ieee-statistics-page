@@ -806,3 +806,170 @@ h1{
         display: none;
     }
 }
+
+
+@media (max-width: 768px) {
+    .wrapper {
+        
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .newsection{
+        padding: 20px 20px 10px 20px;
+        min-height: 13vh;
+    }
+    .heading-section h1{
+        font-size: 40px;
+        padding-left: 15px;
+
+    }
+    .heading-section{
+        padding-top: 100px;
+    }
+    .heading-section .wrapper2{
+        padding: 10px;
+    }
+
+    .wrapper div {
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 0em;
+        
+    }
+    .wrapper1 {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .wrapper1 h1{
+        padding: 5px;
+      }
+      
+      .wrapper1 > div {
+        
+        border-radius: 5px;
+    
+        padding: 0em;
+       
+      }
+      table,tr,td{
+        font-size: 0.3rem;
+      }
+      th, td {
+        padding-top: 2px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 10px;
+      }
+    
+      th, td {
+        padding-top: 2px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 5px;
+      }
+      .tables-section{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+    .stats-section h1 {
+        font-size: 1.5rem;
+    }
+    .stats-section span{
+        font-size: 0.5rem;
+    }
+
+    .counter h2 {
+        font-size: 0.5rem;
+    }
+    .tables-section{
+        padding: 20px ;
+    }
+    .graphs-section{
+        display: none;
+    }
+}
+@media (max-width: 375px) {
+    .wrapper {
+        
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .newsection{
+        padding: 20px 20px 10px 20px;
+        min-height: 13vh;
+    }
+    .heading-section h1{
+        font-size: 40px;
+        padding-left: 15px;
+
+    }
+    .heading-section{
+        padding-top: 100px;
+    }
+    .heading-section .wrapper2{
+        padding: 10px;
+    }
+
+    .wrapper div {
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 0em;
+        
+    }
+    .wrapper1 {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .wrapper1 h1{
+        padding: 5px;
+      }
+      
+      .wrapper1 > div {
+        
+        border-radius: 5px;
+    
+        padding: 0em;
+       
+      }
+      table,tr,td{
+        font-size: 0.3rem;
+      }
+      th, td {
+        padding-top: 2px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 10px;
+      }
+    
+      th, td {
+        padding-top: 2px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 5px;
+      }
+      .tables-section{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+      }
+
+    .stats-section h1 {
+        font-size: 1.5rem;
+    }
+    .stats-section span{
+        font-size: 0.5rem;
+    }
+
+    .counter h2 {
+        font-size: 0.5rem;
+    }
+    .tables-section{
+        padding: 20px ;
+    }
+    .graphs-section{
+        display: none;
+    }
+}
